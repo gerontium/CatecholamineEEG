@@ -17,9 +17,9 @@ Includes data processing/analysis files (matlab/eeglab) and Inferential Statisti
 5. 'p3b_plot.m' - plots relevant ERPs and extracts subject-by-subject data (behavioural, EEG/ERP) and saves to .csv for import into R for inferential analysis
 
 ### Run Inferential Statistics/analysis in R (with Rstudio):
-1. anova_covar_drugs.R
-2. lme_drugs.R
-3. mediation_drugs.R
+1. anova_covar_drugs.R - Run repeated-measures ANOVA on various parameters across drug condition, covarying for VAS measures
+2. lme_drugs.R - Run multilevel modelling on various parameters across drug condition
+3. mediation_drugs.R - Run multilevel mediation analysis, testing whether effect of drug on e.g. RT is mediated by EEG parameters.
 
 ## Figures From Study
 
